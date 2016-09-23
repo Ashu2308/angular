@@ -5,15 +5,18 @@
 	
 	<body >
 		<h1>Sample Application</h1>
-		<a href="/angular/#/">About</a>
-		<a href="/angular/#/contact">Contact</a>
-		<a href="/angular/#/faq">FAQ</a>
-		<a href="/angular/#/last">Last</a>
+		<a ui-sref="about">About</a>
+		<a ui-sref="contact">Contact</a>
+		<a ui-sref="faq">FAQ</a>
+		<a ui-sref="last">Last</a>
 		
-		<div ng-view></div>
+		<div ui-view></div>
 		
-		<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+		
+		
+		<script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></scrip
+		<script src="bower_components/angular-ui-router/src/urlRouter.js"></script>
 		<script src="app.js"></script>
 		<script src="controllers/faq-controller.js"></script>
 		<script src="controllers/about-controller.js"></script>
